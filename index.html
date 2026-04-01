@@ -9,36 +9,36 @@
 
      <div class="container">
         <div id="operacaoRealizada">0</div>
-     
+        <div id="txtResultado"></div>   
     <div class="fila">
         <button class="tecla" onclick="operador('1')">1</button>
         <button class="tecla" onclick="operador('2')">2</button>
         <button class="tecla" onclick="operador('3')">3</button>
-        <button class="tecla" onclick="operador('*')">x</button>
+        <button class="tecla" onclick="operacao('*')">x</button>
     </div>
 
     <div class="fila">
         <button class="tecla" onclick="operador('4')">4</button>
         <button class="tecla" onclick="operador('5')">5</button>
         <button class="tecla" onclick="operador('6')">6</button>
-        <button class="tecla" onclick="operador('-')">-</button>
+        <button class="tecla" onclick="operacao('-')">-</button>
     </div>
 
     <div class="fila">
         <button class="tecla" onclick="operador('7')">7</button>
         <button class="tecla" onclick="operador('8')">8</button>
         <button class="tecla" onclick="operador('9')">9</button>
-        <button class="tecla" onclick="operador('+')">+</button>
+        <button class="tecla" onclick="operacao('+')">+</button>
     </div>
 
     <div class="fila">
         <button class="tecla" onclick="clear()">⌫</button>
         <button class="tecla" onclick="operador('0')">0</button>
-        <button class="tecla" onclick="calculo()">=</button>
-        <button class="tecla" onclick="operador('/')">/</button>
+        <button class="tecla" onclick="calcular()">=</button>
+        <button class="tecla" onclick="operacao('/')">/</button>
     </div>
     </div>
 
-    <script scr="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
